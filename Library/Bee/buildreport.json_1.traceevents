@@ -1,0 +1,511 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1685642257720435, "dur": 2320781, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685642257720672, "dur": 1140, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685642257721815, "dur": 57373, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685642257779190, "dur": 730599, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685642258509792, "dur": 1530482, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685642260040276, "dur": 940, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685642260041760, "dur": 23, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1685642258330113, "dur": 165080, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685642258331059, "dur": 47020, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685642258476277, "dur": 5433, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685642258481717, "dur": 13455, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685642258482588, "dur": 11766, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685642258500780, "dur": 1364, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685642258499800, "dur": 2383, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685642260041869, "dur": 194, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685642258556000, "dur":975, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642258556984, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685642258557046, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685642258557059, "dur":535, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685642258557624, "dur":718, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642258558343, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260021092, "dur":832, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260021924, "dur":102, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022026, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022031, "dur":51, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022083, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022092, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022114, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022118, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022130, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022133, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022145, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022148, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022165, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022167, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022179, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022182, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022191, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022194, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022203, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022206, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022216, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022218, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022228, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022231, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022240, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022243, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022253, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022256, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022265, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022268, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022279, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022282, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022291, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022327, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260022353, "dur":2657, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685642258557938, "dur":419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642258558361, "dur":4578, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642258562951, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685642258562959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642258564678, "dur":829, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685642258565514, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685642258565568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642258566038, "dur":30051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685642258596093, "dur":8759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642258604859, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642258605179, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642258606886, "dur":166183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642258773076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642258773088, "dur":108856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642258882051, "dur":77438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642258959499, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642258959519, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642258961054, "dur":90990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259052053, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642259052070, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259053557, "dur":56680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259110245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642259110262, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259111988, "dur":45354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259157352, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642259157372, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259158803, "dur":102190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259261003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642259261021, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259262778, "dur":243777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259506564, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642259506582, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259508108, "dur":162990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259671107, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685642259671126, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685642259672583, "dur":348498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685642258558132, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685642258558401, "dur":4826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685642258563228, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685642258563404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685642258570305, "dur":470932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685642259041348, "dur":271026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685642259312385, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685642259312404, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685642259313749, "dur":324284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685642259638041, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685642259638058, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685642259639769, "dur":381334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642258558014, "dur":365, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642258558379, "dur":5224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642258563603, "dur":57948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685642258621559, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642258621622, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685642258622863, "dur":126778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642258749646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642258750016, "dur":101760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642258851799, "dur":52487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642258904294, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642258904310, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642258905402, "dur":70369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642258975779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642258975796, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642258976917, "dur":37494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259014420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259014438, "dur":29866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259044339, "dur":101051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259145398, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259145417, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259146674, "dur":52464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259199151, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259199171, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259200594, "dur":37107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259237745, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259237762, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259238975, "dur":82178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259321163, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259321181, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259322508, "dur":263490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259586007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259586025, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685642259588045, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1685642259588072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259588103, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1685642259589692, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685642259589724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259589737, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685642259591324, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685642259591464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259591478, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685642259592630, "dur":1507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1685642259594145, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259594162, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1685642259595161, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685642259595180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259595193, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685642259596327, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1685642259596349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259596361, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1685642259597270, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685642259597293, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259597353, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685642259598675, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1685642259598696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259598709, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1685642259599738, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1685642259599885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685642259599899, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1685642259600820, "dur":420269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642258558002, "dur":369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642258558371, "dur":5246, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642258563618, "dur":44837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685642258608462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642258608490, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685642258609740, "dur":6945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685642258616692, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642258616706, "dur":3997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685642258620790, "dur":128859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642258749654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642258750024, "dur":109030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642258859083, "dur":146802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259005893, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642259005909, "dur":37690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259043632, "dur":50475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259094119, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642259094139, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259096988, "dur":82822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259179817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642259179835, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259180966, "dur":48817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259229832, "dur":158, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642259230009, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259231250, "dur":63286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259294545, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642259294565, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259295756, "dur":496676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259792439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685642259792475, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685642259795708, "dur":225397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642258558066, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642258558384, "dur":5216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642258563600, "dur":14514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685642258578170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642258578537, "dur":54242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685642258632951, "dur":116737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642258749691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642258750053, "dur":100870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642258850948, "dur":133493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642258984447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642258984460, "dur":58606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642259043088, "dur":81109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642259124209, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642259124229, "dur":12190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642259136448, "dur":151492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642259287950, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642259287969, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642259289309, "dur":191083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642259480400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642259480418, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642259481769, "dur":331144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642259812919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685642259812932, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685642259815877, "dur":205200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642258558118, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642258558395, "dur":5012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642258563408, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685642258563814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642258571618, "dur":276795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685642258848524, "dur":45975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642258894507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642258894523, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642258897767, "dur":88686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642258986461, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642258986479, "dur":59449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259045950, "dur":48377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259094391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642259094408, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259096340, "dur":168823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259265171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642259265191, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259266414, "dur":126562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259392985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642259393031, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259394237, "dur":79075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259473321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642259473372, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259474477, "dur":352906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259827391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685642259827408, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685642259828665, "dur":192428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685642258558171, "dur":241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685642258558412, "dur":5165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685642258563578, "dur":8055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685642258571646, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685642258571827, "dur":390578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685642258962499, "dur":68095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259030602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685642259030618, "dur":14861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259045500, "dur":66854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259112361, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685642259112400, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259114599, "dur":73658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259188265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685642259188281, "dur":3742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259192050, "dur":89126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259281184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685642259281201, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259282467, "dur":398489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259680964, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685642259680981, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685642259682612, "dur":338472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642258558214, "dur":206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642258558420, "dur":5073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642258563494, "dur":942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685642258564440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642258571048, "dur":39021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685642258610153, "dur":139718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki.exe" }}
+,{ "pid":12345, "tid":8, "ts":1685642258749874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642258749882, "dur":107453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki.exe" }}
+,{ "pid":12345, "tid":8, "ts":1685642258857357, "dur":50676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642258908042, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642258908059, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642258909131, "dur":75099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642258984239, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642258984256, "dur":56648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642259040943, "dur":154231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642259195183, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642259195237, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642259196701, "dur":217975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642259414685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642259414702, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642259415859, "dur":329196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642259745064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685642259745080, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685642259746832, "dur":274264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642258558268, "dur":158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642258558426, "dur":4517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642258562951, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1685642258563318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642258571312, "dur":278927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1685642258850358, "dur":90292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642258940658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642258940674, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642258941979, "dur":93276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259035264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642259035279, "dur":9676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259044977, "dur":64832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259109819, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642259109852, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259111406, "dur":39790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259151205, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642259151226, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259152651, "dur":62706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259215366, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642259215384, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259216799, "dur":318113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259534919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642259534934, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259536483, "dur":70256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259606750, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685642259606772, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685642259608554, "dur":412519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642258558316, "dur":119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642258558436, "dur":4642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642258563079, "dur":48809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1685642258611896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642258611927, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1685642258613025, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1685642258613334, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642258613798, "dur":36383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1685642258650303, "dur":99354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642258749662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642258750024, "dur":101193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642258851238, "dur":43260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642258894506, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642258894523, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642258896278, "dur":227186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259123511, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642259123529, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259127381, "dur":51064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259178455, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642259178474, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259179815, "dur":205488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259385312, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642259385329, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259387643, "dur":145784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259533470, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642259533488, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259534875, "dur":237135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259772019, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685642259772038, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685642259773589, "dur":247482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685642258558373, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685642258558374, "dur":5240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685642258563614, "dur":8276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1685642258571897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685642258572211, "dur":12137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1685642258584439, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1685642258584758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685642258584774, "dur":457342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1685642259042234, "dur":66296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685642259108539, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685642259108557, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685642259110671, "dur":200689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685642259311370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685642259311390, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685642259313479, "dur":173005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685642259486493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685642259486513, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685642259488663, "dur":293586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685642259782256, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685642259782284, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685642259785084, "dur":236014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642258558419, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642258558420, "dur":5098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642258563518, "dur":60675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1685642258624343, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642258624374, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1685642258627589, "dur":122051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642258749643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642258750109, "dur":109412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642258859553, "dur":68105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642258927666, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642258927683, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642258928738, "dur":238164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259166911, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642259166929, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259168447, "dur":53858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259222314, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642259222334, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259223725, "dur":84582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259308316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642259308334, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259309761, "dur":157523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259467291, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642259467308, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259468432, "dur":74630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259543070, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642259543089, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259544474, "dur":388965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642259933444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685642259933455, "dur":83129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685642260016596, "dur":4513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642258558486, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642258558486, "dur":4455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642258562951, "dur":74043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1685642258637002, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642258638523, "dur":112132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1685642258750766, "dur":59913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642258810687, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642258872120, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642258875216, "dur":73761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642258948986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642258949003, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642258950833, "dur":40248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642258991196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642258991214, "dur":51260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642259042494, "dur":220663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642259263164, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642259263182, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642259264344, "dur":271556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642259535909, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642259535926, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642259537888, "dur":420861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642259958754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1685642259958763, "dur":62214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1685642260021000, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":13, "ts":1685642260021005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642258558571, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642258558571, "dur":4910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642258563482, "dur":20869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1685642258584356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642258584389, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1685642258585452, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1685642258585640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642258585656, "dur":66314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1685642258652081, "dur":97751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642258749836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642258750008, "dur":101019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642258851046, "dur":43055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642258894110, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642258894127, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642258896987, "dur":291652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642259188645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642259188659, "dur":4684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642259193365, "dur":85325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642259278699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642259278717, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642259280873, "dur":276034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642259556914, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642259556930, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642259558587, "dur":95104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642259653699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1685642259653717, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1685642259654959, "dur":366128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642258558532, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642258558532, "dur":4418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642258562951, "dur":26396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1685642258589355, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642258589539, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1685642258590730, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1685642258590880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642258590893, "dur":23097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1685642258614062, "dur":135784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642258749850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642258750009, "dur":99993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642258850026, "dur":193504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259043579, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642259043598, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259045188, "dur":162165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259207363, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642259207380, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259209466, "dur":145979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259355454, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642259355481, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259357362, "dur":159182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259516553, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642259516572, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259517899, "dur":283029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259800934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1685642259800947, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1685642259802245, "dur":218869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642258558638, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642258558639, "dur":4313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642258562953, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1685642258563202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642258571043, "dur":31797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1685642258602937, "dur":146681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642258749625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642258749676, "dur":107115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642258856890, "dur":108204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642258965102, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642258965119, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642258966146, "dur":60277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642259026433, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642259026453, "dur":17163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642259043634, "dur":144318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642259187962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642259187981, "dur":6586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642259194596, "dur":314693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642259509297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642259509314, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642259510501, "dur":240533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642259751041, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1685642259751057, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/Ando/Desktop/ /Games/Zamki/Build/Zamki_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1685642259753206, "dur":267889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685642260027659, "dur":5985, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685642260042126, "dur": 3450, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685642260041741, "dur": 3890, "ph": "X", "name": "Write chrome-trace events", "args": {} },
